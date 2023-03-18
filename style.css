@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 15, 17);
+    min-width: 100%;
+    max-width: 100%;
+}
+#container{
+    border-style: outset;
+    border-width: .5rem;
+    border-color: black;
+    max-width: 408px;
+    max-height: 306px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#result{
+    color: white;
+    font-size: 2rem;
+}
